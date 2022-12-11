@@ -19,17 +19,6 @@ with st.sidebar:
         over_theme = {'txc_inactive': '#F5F5DC','menu_background':'#8FBC8F'}
         st.write("""<h3 style = "text-align: center;"><img src="https://lh3.googleusercontent.com/a/AEdFTp6HhVmu4OOAqfreQyWuUrrQWCJd0AvMnBjbw1JpKg=s192-c-rg-br100" width="90" height="90">
         <br><br> NORMALITA EKA ARIYANTI <p>200411100084 <br>Universitas Trunojoyo Madura <br>litashirinka@gmail.com</p></h3>""",unsafe_allow_html=True)
-st.markdown(
-    """
-<style>
-.sidebar .sidebar-content {
-    background-image: linear-gradient(#2e7bcf,#2e7bcf);
-    color: white;
-}
-</style>
-""",
-    unsafe_allow_html=True,
-)
 
 menu_data = [
     {'label':"Home"},
