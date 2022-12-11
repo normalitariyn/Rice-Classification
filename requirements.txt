@@ -1,0 +1,4 @@
+plotly==5.11.0
+hydralit-components==1.0.10
+streamlit==1.15.2
+scikit-learn==1.2.0
