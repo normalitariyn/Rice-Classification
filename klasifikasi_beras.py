@@ -1,11 +1,8 @@
-from streamlit_option_menu import option_menu
 import plotly.express as px
 import streamlit as st
 import hydralit_components as hc
 import pandas as pd
 import numpy as np
-import altair as alt
-from PIL import Image
 from sklearn.preprocessing import MinMaxScaler
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
@@ -13,7 +10,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
-import joblib
 
 #make it look nice from the start
 st.set_page_config(layout='wide',initial_sidebar_state='collapsed',)
